@@ -1,0 +1,28 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+/* HEADER SECTION */
+header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f9faf8;
+  font-size: 24px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+header ul {
+  display: flex;
+  gap: 15px;
+}
+header ul,
+a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* HERO MAIN */
