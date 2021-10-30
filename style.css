@@ -10,8 +10,9 @@ header {
   align-items: center;
   color: #f9faf8;
   font-size: 24px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 5px;
 }
 header ul {
   display: flex;
@@ -26,3 +27,33 @@ a {
 }
 
 /* HERO MAIN */
+
+main {
+  background-color: #1f2937;
+  display: flex;
+  padding: 100px;
+  gap: 15px;
+}
+main img {
+  width: auto;
+  height: 350px;
+}
+.top-content h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.top-content p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+button {
+  color: white;
+  background-color: #3882f6;
+  border: 3px solid #3882f6;
+  border-radius: 5px;
+  margin-top: 8px;
+  width: 110px;
+  /* padding-left: 3px;
+  padding-right: 3px; */
+}
